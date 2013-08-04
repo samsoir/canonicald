@@ -1,0 +1,59 @@
+# http://www.gnu.org/software/automake
+Makefile.in
+
+# http://www.gnu.org/software/autoconf
+compile
+depcomp
+missing
+ltmain.sh
+texinfo.tex
+Makefile
+Makefile.in
+Makefile.msc
+aclocal.m4
+autom4te.cache
+config.guess
+config.log
+config.status
+config.sub
+config.h.in
+configure
+depcomp
+INSTALL
+install-sh
+lexer.c
+.deps
+.libs
+
+# Object files
+*.o
+*~
+
+# Libraries
+*.lib
+*.a
+*.l[ao]
+parser.[ch]
+stamp-*
+tstidl
+y.output
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Temporary files
+*.swp
+*.log
+*.trs
+
+# Tests
+/tests/.*
+/src/.*
